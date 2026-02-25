@@ -42,9 +42,9 @@ You only need a modern web browser (Chrome, Firefox, Edge, etc.).
 
 The app calculates the distance between two points on a sphere using this formula:
 
-$$a = \sin^2(\Delta\text{lat}/2) + \cos(\text{lat1}) \cdot \cos(\text{lat2}) \cdot \sin^2(\Delta\text{lon}/2)$$
-$$c = 2 \cdot \operatorname{atan2}(\sqrt{a}, \sqrt{1-a})$$
-$$\text{distance} = R \cdot c$$
+a = sin²(Δlat / 2) + cos(lat1) · cos(lat2) · sin²(Δlon / 2)
+c = 2 · atan2(√a, √(1 − a))
+distance = R · c
 
-*(Where $R$ is the Earth's radius, 6371 km)*.
+(Where $R$ is the Earth's radius, 6371 km).
 
